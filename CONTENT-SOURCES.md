@@ -52,3 +52,7 @@ Source: [Emma’s public LinkedIn profile](https://es.linkedin.com/in/emma-rey-s
 ## Profile refresh and skills
 
 Read the connected LinkedIn profile and its Skills page directly on 3 November 2026. Updated the briefing with AI Engineer at Deloitte, current master’s studies at Comillas ICAI and the mathematical engineering/AI degree. Selected technical skills from the Skills page and About section: deep learning, computer vision, NLP, GNNs, reinforcement learning, LLMs, RAG, AI agents, Hugging Face, Python, PyTorch, MLOps, Docker, CI/CD, APIs, probabilistic/mathematical modelling, optimisation and information geometry. Group headings are editorial; no proficiency ratings or endorsements are claimed. This refresh supersedes the earlier profile note above.
+
+## Minimal technical revision
+
+Removed the music project from the displayed shortlist at the user’s request. Five projects remain; verified Python/source files for Bayesian sentiment analysis, language-model efficiency and image captioning, in addition to earlier GNN and travel-agent source checks. Removed celestial artwork and stars, changed headings to sans serif, and lengthened the loader to 2.2 seconds (reduced-motion preference still skips it).

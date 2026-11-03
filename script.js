@@ -24,5 +24,5 @@
   } else { cv.disabled = true; }
   document.getElementById('year').textContent = new Date().getFullYear();
   // Decorative only: no network requests, never hides the actual page from assistive tech.
-  window.setTimeout(() => document.querySelector('.loader').classList.add('done'), matchMedia('(prefers-reduced-motion: reduce)').matches ? 0 : 850);
+  window.setTimeout(() => document.querySelector('.loader').classList.add('done'), matchMedia('(prefers-reduced-motion: reduce)').matches ? 0 : 2200);
 })();

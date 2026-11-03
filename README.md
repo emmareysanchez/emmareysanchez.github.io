@@ -1,6 +1,6 @@
 # Emma Rey Sánchez — AI portfolio
 
-Minimal static portfolio in English and Spanish. Plain HTML, CSS and JavaScript; no build step, framework, backend, analytics, or API keys. All project links point to public repositories. The decorative marble, graphs, favicon and loading screen use local SVG/CSS. Google Fonts supplies DM Sans and Instrument Serif, with system fallbacks.
+Minimal static portfolio in English and Spanish. Plain HTML, CSS and JavaScript; no build step, framework, backend, analytics, or API keys. All project links point to public repositories. The technical diagrams, favicon and loading screen use local SVG/CSS. Google Fonts supplies DM Sans and Instrument Serif, with system fallbacks.
 
 ## Preview
 
@@ -33,6 +33,6 @@ The button stays disabled with a translated “coming soon” note while no URL 
 
 Both translations live together on elements using `data-en` and `data-es` in `index.html`. The visitor's language preference is saved locally when browser storage is available. English is the default. Project names and established technical terms stay in their original language.
 
-The decorative loader dismisses after 850 ms, has a CSS-only fallback, never blocks input, and is hidden for reduced-motion preferences. Content remains available without JavaScript.
+The decorative loader dismisses after 2.2 seconds, has a CSS-only fallback, never blocks input, and is hidden for reduced-motion preferences. Content remains available without JavaScript.
 
 See `CONTENT-SOURCES.md` for project selection and profile provenance. Descriptions summarize repository documentation; they do not claim independently reproduced model results or sole authorship of team projects.
