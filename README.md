@@ -19,15 +19,9 @@ python3 -m http.server 4173
 
 Relative asset paths also work under a project repository URL. GitHub's setup guide: https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site
 
-## Add the CV
+## CV downloads
 
-Edit `config.js` and set `cvUrl` to a PDF URL, or create an assets folder and place a PDF there and use:
-
-```js
-window.PORTFOLIO_CONFIG = { cvUrl: "assets/Emma-Rey-Sanchez-CV.pdf" };
-```
-
-The button stays disabled with a translated “coming soon” note while no URL is set. A same-origin PDF downloads; an external provider may open its own viewer instead.
+The English and Spanish one-page CVs are included as `Emma_Rey_Sanchez_CV.pdf` and `Emma_Rey_Sanchez_CV_ES.pdf`. The language toggle updates the download link using `cvUrls` in `config.js`. The static HTML defaults to the English PDF when JavaScript is unavailable. Replace the corresponding PDF to update a CV.
 
 ## Edit content
 
